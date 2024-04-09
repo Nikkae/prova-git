@@ -5,10 +5,11 @@
 //  Created by Enea Nika on 09/04/24.
 //
 
-#include <stdio.h>
+int somma(int a, int b){
+    return a+b;
+}
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main(){
+    int c = somma(2,3);
     return 0;
 }
