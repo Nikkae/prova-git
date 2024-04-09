@@ -13,7 +13,7 @@ int differenza(int a, int b){
     return a-b;
 }
 
-int main(){
+int main(void){
     int c = somma(2,3);
     return 0;
 }
